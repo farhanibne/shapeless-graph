@@ -1,0 +1,17 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #45484d;
+  background: -moz-linear-gradient(-45deg, #45484d 0%, #000000 100%);
+  background: -webkit-linear-gradient(-45deg, #45484d 0%, #000000 100%);
+  background: linear-gradient(135deg, #45484d 0%, #000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#45484d", endColorstr="#000000",GradientType=1 );
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+}
